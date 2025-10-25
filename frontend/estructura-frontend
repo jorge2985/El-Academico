@@ -1,0 +1,50 @@
+src/
+├── components/
+│   ├── auth/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── AuthContext.jsx
+│   ├── documents/
+│   │   ├── DocumentSearch.jsx
+│   │   ├── DocumentCard.jsx
+│   │   ├── DocumentViewer.jsx
+│   │   └── DocumentUploader.jsx
+│   ├── blog/
+│   │   ├── BlogList.jsx
+│   │   ├── BlogPost.jsx
+│   │   └── BlogEditor.jsx
+│   ├── common/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── FilterPanel.jsx
+│   └── layout/
+│       ├── MainLayout.jsx
+│       └── AdminLayout.jsx
+├── pages/
+│   ├── HomePage.jsx
+│   ├── DocumentsPage.jsx
+│   ├── BlogPage.jsx
+│   ├── SingleDocumentPage.jsx
+│   ├── SingleBlogPage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   ├── ProfilePage.jsx
+│   └── AdminDashboard.jsx
+├── services/
+│   ├── api.js
+│   ├── auth.js
+│   ├── documents.js
+│   └── blog.js
+├── hooks/
+│   ├── useAuth.js
+│   ├── useDocuments.js
+│   └── useBlog.js
+├── utils/
+│   ├── validators.js
+│   ├── formatters.js
+│   └── security.js
+├── context/
+│   └── ThemeContext.jsx
+├── App.jsx
+└── index.jsx

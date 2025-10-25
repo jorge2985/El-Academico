@@ -1,0 +1,52 @@
+backend/
+├── cmd/
+│   └── api/
+│       └── main.go
+├── internal/
+│   ├── config/
+│   │   └── config.go
+│   ├── models/
+│   │   ├── user.go
+│   │   ├── document.go
+│   │   └── blog.go
+│   ├── handlers/
+│   │   ├── auth_handler.go
+│   │   ├── document_handler.go
+│   │   ├── blog_handler.go
+│   │   └── user_handler.go
+│   ├── services/
+│   │   ├── auth_service.go
+│   │   ├── document_service.go
+│   │   ├── blog_service.go
+│   │   └── storage_service.go
+│   ├── repository/
+│   │   ├── user_repository.go
+│   │   ├── document_repository.go
+│   │   └── blog_repository.go
+│   ├── middleware/
+│   │   ├── auth_middleware.go
+│   │   ├── cors_middleware.go
+│   │   ├── rate_limiter.go
+│   │   └── security_middleware.go
+│   ├── utils/
+│   │   ├── jwt.go
+│   │   ├── password.go
+│   │   ├── validator.go
+│   │   └── sanitizer.go
+│   └── database/
+│       ├── postgres.go
+│       └── migrations/
+├── pkg/
+│   ├── errors/
+│   │   └── errors.go
+│   └── response/
+│       └── response.go
+├── storage/
+│   ├── documents/
+│   └── uploads/
+├── .env
+├── .env.example
+├── go.mod
+├── go.sum
+├── Dockerfile
+└── README.md
